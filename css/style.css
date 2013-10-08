@@ -1,0 +1,107 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-top: 120px;
+  background: url(../image/bg-cool.png) #000;
+}
+.jumbotron {
+  background: url(../image/bg-2013.png) #000;
+}
+
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: relative;
+  z-index: 15;
+}
+.navbar-inverse .navbar-brand {
+  color: #ffffff;
+}
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+  color: #EDEDED;
+  background-color: transparent;
+}
+
+/* Pad the edges of the mobile views a bit */
+.show {
+  padding-left: 15px;
+  padding-right: 10px;
+}
+
+/* Center align the text within the three columns below the carousel */
+.show .col-lg-3 {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.show .col-lg-3 p{
+  text-align: left;
+}
+.show h2 {
+  font-weight: normal;
+}
+
+
+
+#about .jumbotron h1{
+  font-size:40px;
+  text-align:center;
+}
+#about .jumbotron h2{
+  text-align:center;
+}
+#about .jumbotron p{
+  text-indent:2em;
+  font-size:14px;
+}
+#about .jumbotron ul{
+  font-size:14px;
+}
+#about .jumbotron .row h4{
+  text-align:center;
+}
+#about .jumbotron p.video{
+  text-align:center;
+}
+
+
+
+#footer {
+  height: 80px;
+  background: url(../image/bg-2013.png) #000;
+  text-align: center
+}
+.container .credit {
+  margin: 20px 0;
+}
+
+#footer > .container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+@media (min-width: 992px) {
+  .featurette-heading {margin-top: 120px;}
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 820px) {
+
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+    body .jumbotron .col-md-7 .button p{text-align: center;}
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {
+    body .jumbotron .col-md-7 .button p{text-align: center;}
+}
